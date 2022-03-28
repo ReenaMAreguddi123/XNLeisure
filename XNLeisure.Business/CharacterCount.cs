@@ -2,7 +2,7 @@
 
 namespace XNLeisure.Business
 {
-    public  class CharacterCount
+    public  class CharacterCount : ICharacterCount
     {
         public int Count(string sentence, char lookFor)
         {
